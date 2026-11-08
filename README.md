@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # นัดเพื่อน
 
 เว็บนัดเพื่อน: ผู้ใช้เลือกวันว่างในปฏิทิน หัวหน้ากลุ่มเชิญเพื่อนด้วย username ระบบหาวันที่สมาชิกทุกคนว่างตรงกัน แล้วหัวหน้ายืนยันเป็นนัดของกลุ่ม
@@ -44,3 +45,6 @@ GROUP BY a.free_date
 HAVING COUNT(*) = (SELECT COUNT(*) FROM group_members
                    WHERE group_id = ? AND status = 'accepted');
 ```
+=======
+# group-project
+>>>>>>> df49c62b9eaa0b812f4dafaf05e1952f6b244ab7
